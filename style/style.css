@@ -72,6 +72,7 @@ body {
 }
 .banner-image {
     transition: all 0.5s;
+    margin-bottom: -8px;
 }
 .banner-image:hover {
     transform: translate(40px, -15px);
@@ -275,6 +276,10 @@ hr {
     text-align: center;
     line-height: 42px;
     margin: 10px;
+    transition: all 0.5s;
+}
+.social-icon span:hover{
+    background-color:#fc5c65;
 }
 .social-icon span i {
     color: #303952;
@@ -298,15 +303,15 @@ hr {
     }
     /* banner screen */
     .banner-section{
-        margin: 50px 15px 0 15px;
+        margin: 20px 15px 0 15px;
     }
     .banner-info {
         display: block;
         text-align: center;
-        padding-top: 10px 10px;
     }
     .banner-info-details {
         margin-top: 50px;
+        margin: 0 20px;
     }
     .banner-title {
         font-weight: 700;
@@ -318,6 +323,9 @@ hr {
         margin-bottom: 45px;
         font-size: 14px;
         line-height: 24px;
+    }
+    .banner-image {
+        margin-bottom: -18px;
     }
     .banner-image img {
         width: 233px;
@@ -357,7 +365,7 @@ hr {
     .blog a {
         text-decoration: none;
         color: #000000;
-        padding: 17px 39px;
+        padding: 17px 30px;
         border: 1px solid rgb(163, 162, 162);
         border-radius: 10px;
     }
@@ -367,6 +375,7 @@ hr {
     }
     .all-transfer-blog {
         grid-template-columns: repeat(1, 1fr);
+        margin-right: 15px;
     }
     .transfer-blog-card{
         margin-left: 15px;
@@ -411,6 +420,9 @@ hr {
         width: 100%;
     }
     /* banner  screen  */
+    .banner{
+        margin: 0 20px;
+    }
     .banner-info-details {
         margin-left: 50px;
     }
@@ -469,8 +481,8 @@ hr {
         margin-right: 0;
     }
     .all-transfer-blog {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px;
     }
     img {
         width: 100%;

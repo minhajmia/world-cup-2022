@@ -80,6 +80,7 @@ body {
 
 .banner-image {
     transition: all 0.5s;
+    margin-bottom: -8px;
 }
 
 .banner-image:hover {
@@ -273,8 +274,12 @@ hr {
     text-align: center;
     line-height: 42px;
     margin: 10px;
-}
-
+    transition: all 0.5s;
+    }
+    
+    .social-icon span:hover {
+        background-color: #fc5c65;
+    }
 .social-icon span i {
     color: #303952;
 }
@@ -299,10 +304,16 @@ hr {
     }
 
     /* banner screen */
+ .banner-section{
+        margin: 20px 15px 0 15px
+    }
+    .banner{
+        margin: 0 10px 0 15px;
+    }
     .banner-info {
         display: block;
         text-align: center;
-        padding-top: 10px 10px;
+        padding:15px 15px;
     }
 
     .banner-info-details {
@@ -353,10 +364,9 @@ hr {
     .all-group,
     .blog {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 30px;
         background-color: #ffff;
-
         margin-bottom: 30px;
         cursor: pointer;
         text-align: center;
@@ -367,7 +377,7 @@ hr {
     .blog a {
         text-decoration: none;
         color: #000000;
-        padding: 17px 39px;
+        padding: 17px 30px;
         border: 1px solid rgb(163, 162, 162);
         border-radius: 10px;
     }
@@ -378,6 +388,7 @@ hr {
     }
     .upcoming-match-container {
         grid-template-columns: repeat(1, 1fr);
+        margin: 0 10px 0 0;
     }
     img {
         width: 100%;
@@ -426,6 +437,9 @@ hr {
     }
 
     /* banner  screen  */
+    .banner{
+        margin: 0 20px;
+    }
     .banner-info-details {
         margin-left: 50px;
     }
@@ -494,9 +508,9 @@ hr {
         background-color: #fc5c65;
         margin-right: 0;
     }
-
    .upcoming-match-container {
        grid-template-columns: repeat(2, 1fr);
+       margin: 0 20px;
    }
 
     img {
