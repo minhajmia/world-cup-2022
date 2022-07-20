@@ -297,6 +297,9 @@ hr {
         width: 100%;
     }
     /* banner screen */
+    .banner-section{
+        margin: 50px 15px 0 15px;
+    }
     .banner-info {
         display: block;
         text-align: center;
@@ -342,10 +345,9 @@ hr {
     .all-group,
     .blog {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 30px;
         background-color: #ffff;
-
         margin-bottom: 30px;
         cursor: pointer;
         text-align: center;
@@ -365,7 +367,9 @@ hr {
     }
     .all-transfer-blog {
         grid-template-columns: repeat(1, 1fr);
-
+    }
+    .transfer-blog-card{
+        margin-left: 15px;
     }
     img {
         width: 100%;
