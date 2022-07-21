@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* overflow:hidden; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -304,6 +305,7 @@ hr {
         /* banner screen */
         .banner-section {
             margin: 20px 15px 35px 15px;
+            overflow-x: hidden;
         }
         .banner-info {
             display: block;
@@ -379,6 +381,7 @@ hr {
         .all-transfer-blog {
             grid-template-columns: repeat(1, 1fr);
             margin-right: 15px;
+            overflow-x: hidden;
         }
 
         .transfer-blog-card {
@@ -392,6 +395,7 @@ hr {
         /* footer screen */
         .footer-info {
             margin-top: 30px;
+            overflow-x: hidden;
         }
         .footer-link {
             display: flex;
@@ -422,6 +426,7 @@ hr {
     /* banner screen */
     .banner-section{
         margin: 20px 15px 0 15px;
+        overflow-x: hidden;
     }
     .banner-info{
         display: block;
