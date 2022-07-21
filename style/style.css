@@ -544,6 +544,9 @@ hr {
         width: 100%;
     }
     /* banner  screen  */
+    .banner-section{
+        overflow-x: hidden;
+    }
     .banner{
         margin: 0 20px;
     }
